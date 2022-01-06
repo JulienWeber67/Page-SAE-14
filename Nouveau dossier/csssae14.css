@@ -1,0 +1,105 @@
+
+body {
+    background-image: url(fontecran.png);
+    background-repeat:repeat ;
+    background-size: 60%;
+}
+nav {
+    display: table;
+    width : 100%;
+    font-size: 125%;
+}
+nav > a {
+    display: table-cell;
+    width : 25%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color : gray
+    
+}
+header {
+    background-image: url(img.jpg);
+    margin-bottom: 30px;
+}
+#toutelapage{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightslategray;
+    border-radius: 12px;
+}
+h1 {
+    font-size: 400%;
+    text-decoration: underline;
+    text-align: center;
+    background-color: grey;
+    border-radius: 12px;
+    font-family: 'Grenze Gotisch', cursive;
+    border: 2px solid black;
+    
+}
+h2{
+    font-size: 200%;
+    text-decoration: underline;
+    text-align: center;
+    background-color: grey;
+    border-radius: 12px;
+    font-family: 'Grenze Gotisch', cursive;
+}
+h3 {
+    font-size: 150%;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Grenze Gotisch', cursive;
+}
+.art0{
+    border: 2px solid black;
+    background-color:lightskyblue;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 3% 3% 3% 3%;
+    flex-basis: calc( 100% / 3 - 6% );
+    font-family: 'Assistant', sans-serif;
+} 
+.art1{
+    border: 2px solid black;
+    background-color:lightskyblue;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 3% 3% 3% 3%;
+    flex-basis: calc( 100% / 2 - 6% );
+    font-family: 'Assistant', sans-serif;
+}
+.art2{
+    border: 2px solid black;
+    
+    background-color:rgb(182, 128, 226);
+    border-radius: 12px;
+    padding: 3%;
+    margin: 3% 3% 3% 3%;
+}
+.art3{
+    border: 2px solid black;
+    background-color:red;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 3% 3% 3% 3%;
+    flex-basis: calc( 100% / 2 - 6% );
+    font-family: 'Assistant', sans-serif;
+}
+.jeux{
+ float: right;
+ padding: 3%;  
+}
+.image{
+    float: right;
+}
+footer{
+    background-color:lawngreen;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 3%;
+}
